@@ -1,0 +1,120 @@
+html, body {
+  font-size: 18px;
+  font-family: arial; }
+
+#menu {
+  position: fixed;
+  z-index: 3;
+  background: #34A5C5;
+  height: 100%;
+  overflow: auto;
+  font-size: 13px; }
+  #menu .logo {
+    background: white; }
+    #menu .logo a img {
+      max-height: 150px;
+      margin: 0 auto;
+      margin-bottom: 30px; }
+  #menu .menu-list ul {
+    list-style-type: none; }
+  #menu .menu-list a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    line-height: 2.5em; }
+    #menu .menu-list a:hover li {
+      background: transparent; }
+    #menu .menu-list a li {
+      padding-left: 10px; }
+  #menu .brand-logo {
+    background: white;
+    border: 1px solid #AA9C29;
+    color: #AA9C29;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: 50px; }
+
+#info {
+  z-index: 2;
+  height: 40px;
+  background: #34A5C5; }
+  #info #information {
+    line-height: 40px; }
+    #info #information span {
+      color: white;
+      font-weight: bold;
+      font-size: 1em; }
+    #info #information i {
+      color: white;
+      font-size: 1em; }
+    #info #information .call-me {
+      color: #34A5C5;
+      background: white;
+      font-size: .8em;
+      text-transform: uppercase;
+      padding: 5px 10px;
+      font-weight: bold;
+      margin: 0 20px;
+      text-decoration: none; }
+    #info #information .time {
+      font-weight: normal;
+      font-size: 1em;
+      margin-left: 20px; }
+
+#virtual-tour {
+  background: url("../images/slider/1.jpg");
+  background-size: cover;
+  height: 100%;
+  overflow: auto;
+  position: fixed; }
+  #virtual-tour:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: .8;
+    position: absolute;
+    left: 0; }
+  #virtual-tour .text {
+    color: white;
+    margin: 70px 0px; }
+    #virtual-tour .text h2 {
+      font-weight: bold; }
+
+#footer {
+  background: #403E44;
+  position: fixed;
+  bottom: 0;
+  z-index: 4; }
+  #footer .footer-item {
+    line-height: 40px; }
+  #footer #copyright {
+    font-size: .8em;
+    color: #746F79; }
+  #footer #menu-items ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+    #footer #menu-items ul li {
+      display: inline-block;
+      padding: 0 20px;
+      border-left: 1px solid #746F79; }
+  #footer #menu-items a {
+    color: white;
+    font-size: .8em;
+    text-decoration: none; }
+  #footer #social-networks a {
+    color: #746F79;
+    text-decoration: none;
+    padding: 0 20px;
+    float: right;
+    border-left: 1px solid #746F79;
+    font-size: .8em;
+    margin: 0; }
+
+/*# sourceMappingURL=virtual-tour.css.map */

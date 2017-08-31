@@ -1,0 +1,69 @@
+#footer{
+
+	background:$footerBg;
+	position: fixed;
+	bottom:0;
+	z-index:4;
+	
+
+	// ------------------------------footer item----------------------------------
+
+	.footer-item{
+		line-height: 40px;
+	}
+
+	// ------------------------------End footer item----------------------------------
+
+	// ------------------------------Copyright----------------------------------
+
+	#copyright{
+		font-size:.8em;
+		color:$footerSecondColor;
+	}
+
+	// ------------------------------End Copyright----------------------------------
+
+
+	// ------------------------------Menu items----------------------------------
+
+	#menu-items{
+		ul{
+			margin:0;
+			padding:0;
+			list-style-type:none;
+			li{
+				display: inline-block;
+				padding: 0 20px;
+				border-left:1px solid $footer-border-color;
+			}
+		}
+
+		a{
+			color:$footerMainColor;
+			font-size: .8em;
+			text-decoration: none;
+		}
+	}
+
+
+
+	// ------------------------------End menu items----------------------------------
+	
+	
+	// ------------------------------social-networks------------------------------
+
+	#social-networks{
+		a{
+			color:$footerSecondColor;
+			text-decoration: none;
+			padding:0 20px;
+			float: right;
+			border-left:1px solid $footer-border-color;
+			font-size: .8em;
+			margin:0;
+		}
+	}
+	
+	// -------------------------------End social-networks--------------------------------------
+
+}

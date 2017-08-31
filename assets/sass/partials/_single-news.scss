@@ -1,0 +1,60 @@
+#single-news{
+
+	background:$news-content-bg;
+
+	#news-bg{
+		background:$news-content-list-bg;
+		
+		#news-list{
+			
+			ul{margin:0;padding:0;list-style-type:none;}
+			
+			// -------News------
+			.news{
+				padding:20px;
+				margin:0;
+			
+				// ----title----
+				.title a{
+					text-decoration: none;
+					color:$news-color;
+				}
+				.title h3{
+					font-weight: bold;
+					text-transform: uppercase;
+				}
+				// ----end title----
+
+				// ----more----
+				.more{
+					color:$news-more-color;
+					line-height: 1.5;
+					font-weight: bold;
+					padding-top:18px;
+					padding-bottom:20px;
+
+				}
+				// ----end more----
+
+				// ----publishing-date----
+				.publishing-date{
+					color:$news-pd-color;
+					font-weight: bold;
+					line-height: 70px;
+				}
+				// ----end publishing-date----
+
+			}
+
+			// -------End News------
+
+			.last{
+				padding-bottom:50px;
+			}
+
+
+		}
+
+	}
+
+}

@@ -1,0 +1,64 @@
+#menu{
+	position: fixed;
+	z-index:3;
+	background:$menuBg;
+	height:100%;
+	overflow:auto;
+	font-size:13px;
+	// -------------------Logo--------------------
+
+	.logo{
+		background:white;
+		a img{
+			max-height: 150px;
+			margin:0 auto;
+			margin-bottom:$menuLogoMargin ;
+		}
+	}
+
+	// ---------------------End Logo----------------------
+	
+	// --------------------------Menu-------------------------------
+
+	.menu-list{
+
+		ul{list-style-type:none;}
+
+		a{
+			text:{
+				decoration:none;
+				transform:uppercase;
+				align:left;
+			}
+			font-weight: bold;
+			color:$menuColor;
+			line-height: 2.5em;
+			&:hover li{
+				background:$menuHoverBg;
+			}
+			li{
+				padding-left: 10px;
+			}
+		}
+
+	}
+
+	// ------------------------------End menu-------------------------------
+
+	// -------------------brand-Logo--------------------
+
+	.brand-logo{
+		background:white;
+		border:1px solid #AA9C29;
+		color:#AA9C29;
+		font-weight: bold;
+		font-size: 17px;
+		text-align: center;
+		text-transform: uppercase;
+		padding:10px;
+		margin-top: 50px;
+	}
+
+	// ---------------------End brand-Logo----------------------
+
+}

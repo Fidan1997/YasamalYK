@@ -1,0 +1,40 @@
+#contact{
+	position:fixed;
+	height:100%;
+	overflow:auto;
+
+	iframe{
+		position: fixed;
+	}
+	
+
+	// ----------------------------------Call me-------------------------------------------
+	.call-me{
+		position:absolute;
+		height:400px;
+		right:80px;
+		top:100px;
+
+		img{
+			max-height: 100px;
+			margin:0 auto;
+		}
+
+		p{
+			font-size: .8em;
+			text-align: center;
+		}
+	}
+
+		// ------------------------------------Submit button-----------------------------------
+		.btn-success{
+			background:$info-call-me-bg;
+			border:1px solid $info-call-me-bg;
+			text-transform: uppercase;
+		}
+		// ------------------------------------End Submit button-----------------------------------
+
+	// ----------------------------------End Call me-------------------------------------------
+	
+
+}

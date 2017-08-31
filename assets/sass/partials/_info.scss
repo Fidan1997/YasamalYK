@@ -1,0 +1,44 @@
+#info{
+	z-index:2;
+	height:40px;
+	background:$infoBg;
+
+	
+	// ------------------------------Phone----------------------------------
+		
+	#information{
+
+		line-height: 40px;
+
+		span{
+			color:$info-color;
+			font-weight: bold;
+			font-size: 1em;
+		}
+		i{
+			color:$info-icon-color;
+			font-size: 1em;
+		}
+
+		.call-me{
+			color:$info-call-me-color;
+			background:$info-call-me-bg;
+			font-size: .8em;
+			text-transform: uppercase;
+			padding:5px 10px;
+			font-weight: bold;
+			margin:0 20px;
+			text-decoration: none;
+		}
+
+		.time{
+			font-weight: normal;
+			font-size: 1em;
+			margin-left: 20px;
+		}
+
+	}
+	
+	// --------------------------------End phone------------------------------
+
+}

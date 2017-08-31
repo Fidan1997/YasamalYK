@@ -1,0 +1,56 @@
+#float{
+
+	#schema{
+		display: inline-block;
+		img{
+			margin-top: 15%;
+			display: inline-block;
+		}
+		.compass{
+			display: block;
+			margin:0;
+			float: right;
+		}
+	}
+
+	#info{
+		background:transparent;
+		display: inline-block;
+		color:$news-color;
+		padding-left:60px;
+
+		.number{
+			font-weight: bold;
+		}
+		.floor{
+			font-weight: bold;
+			color:$news-more-color;
+		}
+		
+		table{
+			display: inline-block;
+		}
+
+		table tr{
+			line-height:35px;
+		}
+
+		table tr td:last-child{
+			font-weight: bold;
+			padding-left: 20px;
+		}
+
+		.extra-button{
+			text-decoration: none;
+			color:white;
+			border:1px solid #1D91BB;
+			padding:25px 20px;
+			font-weight: bold;
+			background:#1D91BB;
+			border-radius:100%;
+
+		}
+
+	}
+
+}
